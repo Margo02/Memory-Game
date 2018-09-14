@@ -19,14 +19,14 @@ let deck = document.getElementById('deck-cards');
 /*create the DocumentFragment append elements to it,
 adding that to the DOM.*/
 var fragment = document.createDocumentFragment();
-let card = document.getElementsByClassName("card");
+let card = document.getElementsByClassName('card');
 
-let matchedCard = document.getElementsByClassName("match");
+let matchedCard = document.getElementsByClassName('match');
 const openCards = [];
 
 /*moves*/
 let moves = 0;
-let counterMoves = document.querySelector(".moves");
+let counterMoves = document.querySelector('.moves');
 
 /*counts clics*/
 let counter = 0;
@@ -52,6 +52,8 @@ let el = document.getElementById('overlay');
 *   - add each card's HTML to the page
 */
 
+/*@description Loads memory game , suffle cards */
+init();
 
 // Shuffle function from http://stackoverflow.com/a/2450976
 function shuffle(array) {
@@ -67,9 +69,6 @@ function shuffle(array) {
 
   return array;
 }
-
-// Shuffles cards when page is load
-document.body.onload = init();
 
 /* @description Starts the game */
 function init() {
@@ -133,7 +132,7 @@ function showCard(card) {
   card.classList.toggle('show');
 }
 
-/* @description Create deck with cards face up., if two click */
+/* @description Create deck with cards face up */
 
 function addCards(card){
  openCards.push(card);
@@ -167,7 +166,6 @@ function starsRating(numberClics) {
       stars.removeChild(stars.childNodes[0]);
       starsCounter = 1;
       console.log(starsCounter);
-
    break;
   case 60:
     // moves 30
@@ -194,7 +192,7 @@ function checkIfMatch() {
    openCards[1].setAttribute("class" , "card match disabled");
    matched++;
    console.log("matched " + matched);
-   /*clear the existing array openCards by setting its length to 0*/
+   /*clear the existing array of openCards by setting its length to 0*/
    openCards.length = 0;
     if (matched === allMatched){
      gameOver();
@@ -222,7 +220,7 @@ function disable() {
  }
 }
 
-/*@description eable cards*/
+/*@description enable cards*/
 function enable() {
  for (i=0; i < card.length; i++){
    card[i].classList.remove("disabled");
