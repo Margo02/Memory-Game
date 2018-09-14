@@ -38,10 +38,10 @@ h1 {
  */
 
 .deck {
-    width: 660px;
-    min-height: 680px;
+    width: 80%;
+    height: 80%;
     background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
-    padding: 32px;
+    padding: 1rem;
     border-radius: 10px;
     box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
     display: flex;
@@ -52,8 +52,9 @@ h1 {
 }
 
 .deck .card {
-    height: 125px;
-    width: 125px;
+    height:3.7rem;
+    width:3.7rem;
+    margin: 0.2rem 0.2rem;
     background: #2e3d49;
     font-size: 0;
     color: #ffffff;
@@ -85,13 +86,13 @@ h1 {
 	pointer-events: none;
 	opacity: 0.9;
 }
+
 /*
  * Styles for the Score Panel
  */
 
 .score-panel {
     text-align: left;
-    width: 345px;
     margin-bottom: 10px;
 }
 
@@ -189,8 +190,48 @@ h1 {
 /* refrance to W3 school*/
 .play-again:hover {background-color: #3e8e41}
 
-.pay-again:active {
+.play-again:active {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+
+/* media query */
+@media (min-width: 768px) {
+  .deck {
+		width: 660px;
+		height: 680px;
+	}
+
+	.deck .card {
+		height: 125px;
+		width: 125px;
+	}
+}
+
+@media (max-width: 320px) {
+  .deck {
+		width: 80%;
+    height: 80%;
+	}
+
+	.deck .card {
+		height: 4.7rem;
+		width: 4.7rem;
+	}
+}
+
+@media (max-width: 690px) {
+	.overaly-content {
+		font-size: 10px;
+	}
+
+  .play-again {
+    width: 3.7rem;
+    font-size: 10px;
+  }
+
+  .close {
+    font-size: 20px;
+  }
 }
