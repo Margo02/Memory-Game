@@ -1,11 +1,11 @@
-#MEMORY GAME PROJECT
+# MEMORY GAME PROJECT
 
-##Important Notes:
+## Important Notes:
 
  1. It is the project of Udacity's Intro to Programming Nanodegree (IPND).
  2. [Udacity provided the started code](https://github.com/udacity/fend-project-memory-game) for this project.
 
-##How To Play
+## How To Play
  Memory Game requires a player to match two similar cards.
  The user needs to click on a card to reveal a symbol.
  The game ends once all cards have successfully been matched. When the game ends, a popup congratulations' message appears, it shows the user how much time it took to complete the game and what the star's rating was.
@@ -18,7 +18,7 @@ Scoring
 1 star = 20 moves or more
 ```
 
-###Project Specifications
+### Project Specifications
 | CRITERIA | MEETS SPECIFICATIONS
 |---|:---
 | Memory Game Logic | The game randomly shuffles the cards. A user wins once all cards have successfully been matched.
