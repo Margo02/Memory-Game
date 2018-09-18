@@ -94,7 +94,7 @@ const newDeck = deck;
 let clickTarget = 0;
 newDeck.addEventListener("click", function( event ) {
   clickTarget = event.target;
-   if (clickTarget.classList.contains('card') && openCards.length < 2){
+   if (clickTarget.classList.contains('card') && (!isTheSameCard(clickTarget)) && openCards.length < 2){
      counter ++;
       if(clockOff){
        startTimer();
@@ -125,30 +125,30 @@ newDeck.addEventListener("click", function( event ) {
   }
 }, false);
 
-/* @description Show card's symbols */
+/* @description Check if click the same card more than once */
+function isTheSameCard(clickTarget) {
+    const isTheSame = (clickTarget.className === 'card open show disable') ? true : false;
+    console.log("is the same Card :" + isTheSame);
+		return isTheSame;
+}
 
-function showCard(card) {
+/* @description Show card's symbols */
+let showCard = (card) => {
   card.classList.toggle('open');
   card.classList.toggle('show');
+  card.classList.toggle('disable');
 }
 
 /* @description Create deck with cards face up */
-
-function addCards(card){
- openCards.push(card);
-}
+let addCards = (card) => openCards.push(card);
 
 /* check if counter is even */
-
-var is_even = function(counter) {
-  return !(counter % 2);
-}
+var is_even = (counter) => !(counter % 2);
 
 /* @description Star ratings , check number of moves,
 3 stars = 9 moves or less
 2 stars = 10 moves to 19 moves
-1 star = 20 moves to 29 moves
-0 stars = 30 and more */
+1 star = 20 moves or more */
 
 function starsRating(numberClics) {
 
@@ -167,14 +167,6 @@ function starsRating(numberClics) {
       starsCounter = 1;
       console.log(starsCounter);
    break;
-  case 60:
-    // moves 30
-    for (let i = 0; i < 3; i++){
-      stars.removeChild(stars.childNodes[0]);
-      starsCounter = 0;
-      console.log(starsCounter);
-    }
-    break;
   default:
     console.log("Do not know stars ratings");
    break;
@@ -183,7 +175,6 @@ function starsRating(numberClics) {
 }
 
 /*@description Check if two cards have been matched */
-
 function checkIfMatch() {
 
  if (openCards[0].firstChild.getAttribute('class') == openCards[1].firstChild.getAttribute('class')){
