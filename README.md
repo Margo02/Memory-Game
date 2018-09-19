@@ -19,6 +19,7 @@ Scoring
 
 ```
 ---
+--
 
 ### Project Specifications
 | CRITERIA | MEETS SPECIFICATIONS
@@ -30,16 +31,26 @@ Scoring
 | Timer | When the player starts a game, a timer should also start. Once the player wins the game, the timer stops.
 | Move Counter | Game displays the current number of moves a user has made.
 
+--
+
 ---
+--
 
 ### Project Dependencies
-* Shuffle Function:
- - [Stackoverflow](http://stackoverflow.com/a/2450976)
-* Font Awesome 4.6.1:
- - [maxcdn.bootstrapcdn.com](https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css)
-* Google Fonts Coda:
- - [fonts.googleapis.com](https://fonts.googleapis.com/css?family=Coda)
-* Timer Function
- - [www.codeseek.co](https://www.codeseek.co/chrisvneal/basic-timer-erXJGZ)
-* CSS Button Hover Effects w3schools:
- - [www.w3schools.com](https://www.w3schools.com/css)
+
+<dl>
+  <dt> Shuffle Function: </dt>
+  <dd> [Stackoverflow](http://stackoverflow.com/a/2450976) </dd>
+
+  <dt> Font Awesome 4.6.1: </dt>
+  <dd>  [maxcdn.bootstrapcdn.com](https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css) </dd>
+
+  <dt>Google Fonts Coda: </dt>
+  <dd> [fonts.googleapis.com](https://fonts.googleapis.com/css?family=Coda)   </dd>
+
+  <dt> Timer Function: </dt>
+  <dd> [www.codeseek.co](https://www.codeseek.co/chrisvneal/basic-timer-erXJGZ) </dd>
+
+  <dt> CSS Button Hover Effects w3schools: </dt>
+  <dd> [www.w3schools.com](https://www.w3schools.com/css) </dd>
+</dl>
