@@ -18,6 +18,7 @@ Scoring
 1 star = 20 moves or more
 
 ```
+---
 
 ### Project Specifications
 | CRITERIA | MEETS SPECIFICATIONS
@@ -29,14 +30,16 @@ Scoring
 | Timer | When the player starts a game, a timer should also start. Once the player wins the game, the timer stops.
 | Move Counter | Game displays the current number of moves a user has made.
 
-#### Project Dependencies
+---
+
+### Project Dependencies
 * Shuffle Function:
-- <http://stackoverflow.com/a/2450976>
+ - [Stackoverflow](http://stackoverflow.com/a/2450976)
 * Font Awesome 4.6.1:
-- <https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css>
+ - [maxcdn.bootstrapcdn.com](https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css)
 * Google Fonts Coda:
-- <https://fonts.googleapis.com/css?family=Coda>
+ - [fonts.googleapis.com](https://fonts.googleapis.com/css?family=Coda)
 * Timer Function
-- <https://www.codeseek.co/chrisvneal/basic-timer-erXJGZ>
+ - [www.codeseek.co](https://www.codeseek.co/chrisvneal/basic-timer-erXJGZ)
 * CSS Button Hover Effects w3schools:
-- <https://www.w3schools.com/css>
+ - [www.w3schools.com](https://www.w3schools.com/css)
