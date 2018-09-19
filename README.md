@@ -16,6 +16,7 @@ Scoring
 3 stars = 9 moves or less
 2 stars = 10 moves to 19 moves
 1 star = 20 moves or more
+
 ```
 
 ### Project Specifications
@@ -27,3 +28,15 @@ Scoring
 | Star Rating | The game displays a star rating (from 1-3) that reflects the player's performance. At the beginning of a game, it should display 3 stars. After some number of moves, it should change to a 2 star rating. After a few more moves, it should change to a 1 star rating.
 | Timer | When the player starts a game, a timer should also start. Once the player wins the game, the timer stops.
 | Move Counter | Game displays the current number of moves a user has made.
+
+#### Project Dependencies
+* Shuffle Function:
+- <http://stackoverflow.com/a/2450976>
+* Font Awesome 4.6.1:
+- <https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css>
+* Google Fonts Coda:
+- <https://fonts.googleapis.com/css?family=Coda>
+* Timer Function
+- <https://www.codeseek.co/chrisvneal/basic-timer-erXJGZ>
+* CSS Button Hover Effects w3schools:
+- <https://www.w3schools.com/css>
