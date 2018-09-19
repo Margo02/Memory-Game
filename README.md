@@ -39,20 +39,18 @@ Scoring
 ### Project Dependencies
 
 <dl>
-
   <dt> Shuffle Function: </dt>
-  <dd> <http://stackoverflow.com/a/2450976> </dd>
+  <dd> http://stackoverflow.com/a/2450976 </dd>
 
   <dt> Font Awesome 4.6.1: </dt>
-  <dd> <https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css> </dd>
+  <dd> https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css </dd>
 
   <dt> Google Fonts Coda: </dt>
-  <dd> <https://fonts.googleapis.com/css?family=Coda> </dd>
+  <dd> https://fonts.googleapis.com/css?family=Coda </dd>
 
-  <dt>Timer Function:</dt>
-  <dd> <https://www.codeseek.co/chrisvneal/basic-timer-erXJGZ> </dd>
+  <dt> Timer Function: </dt>
+  <dd> https://www.codeseek.co/chrisvneal/basic-timer-erXJGZ </dd>
 
   <dt> CSS Button Hover Effects w3schools: </dt>
-  <dd> <https://www.w3schools.com/css> </dd>
-
+  <dd> https://www.w3schools.com/css </dd>
 </dl>
