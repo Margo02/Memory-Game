@@ -39,6 +39,7 @@ Scoring
 ### Project Dependencies
 
 <dl>
+
   <dt> Shuffle Function: </dt>
   <dd> <http://stackoverflow.com/a/2450976> </dd>
 
